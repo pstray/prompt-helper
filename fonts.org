@@ -1,0 +1,1565 @@
+#+TITLE: Fonts
+
+* Unicode Private Use Area
+
+  The unicode standard reserves a range for private use, from U+E000 to
+  U+F8FF. Custom fonts should restrict themselves to this range.
+
+* Nerd fonts v1.2.0
+
+  Web: https://nerdfonts.com/
+  Git: https://github.com/ryanoasis/nerd-fonts
+
+  This font site has a lot of programming fonts merged with several icon
+  fonts.
+
+** Seti-UI + Custom                                                 :E5FA:E62B:
+
+   Based off of [[https://atom.io/themes/seti-ui][Seti-UI]] Icomoon with extra custom glyphs.
+
+   |      | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | a | b | c | d | e | f |
+   | e5f0 |   |   |   |   |   |   |   |   |   |   |  |  |  |  |  |  |
+   | e600 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | e610 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | e620 |  |  |  |  |  |  |  |  |  |  |  |  |   |   |   |   |
+
+   | Hex  | C |        | Name                             |
+   |------+---+--------+----------------------------------|
+   | e5fa |  | custom | folder_npm                       |
+   | e5fb |  | custom | folder_git{,_branch}             |
+   | e5fc |  | custom | folder_config                    |
+   | e5fd |  | custom | folder_github                    |
+   | e5fe |  | custom | folder_open                      |
+   | e5ff |  | custom | folder                           |
+   | e600 |  | seti   | stylus                           |
+   | e601 |  | seti   | project                          |
+   | e602 |  | seti   | play_arrow                       |
+   | e603 |  | seti   | sass                             |
+   | e604 |  | seti   | rails                            |
+   | e605 |  | seti   | ruby                             |
+   | e606 |  | seti   | python                           |
+   | e607 |  | seti   | heroku                           |
+   | e608 |  | seti   | php                              |
+   | e609 |  | seti   | markdown                         |
+   | e60a |  | seti   | license                          |
+   | e60b |  | seti   | json, less                       |
+   | e60c |  | seti   | javascript                       |
+   | e60d |  | seti   | image                            |
+   | e60e |  | seti   | html                             |
+   | e60f |  | seti   | mustache                         |
+   | e610 |  | seti   | gulp                             |
+   | e611 |  | seti   | grunt                            |
+   | e612 |  | seti   | default, text                    |
+   | e613 |  | seti   | folder                           |
+   | e614 |  | seti   | css                              |
+   | e615 |  | seti   | config                           |
+   | e616 |  | seti   | npm                              |
+   | e617 |  | seti   | home                             |
+   | e618 |  | seti   | ejs                              |
+   | e619 |  | seti   | xml                              |
+   | e61a |  | seti   | bower                            |
+   | e61b |  | seti   | coffee, cjsx                     |
+   | e61c |  | seti   | twig                             |
+   | e61d |  | custom | cpp                              |
+   | e61e |  | custom | c                                |
+   | e61f |  | seti   | haskell                          |
+   | e620 |  | seti   | lua                              |
+   | e621 |  |        | indent_line, indent_dotted_guide |
+   | e622 |  | seti   | karma                            |
+   | e623 |  | seti   | favicon                          |
+   | e624 |  | seti   | julia                            |
+   | e625 |  | seti   | react                            |
+   | e626 |  | custom | go                               |
+   | e627 |  | seti   | go                               |
+   | e628 |  | seti   | typescript                       |
+   | e629 |  | custom | msdos                            |
+   | e62a |  | custom | windows                          |
+   | e62b |  | custom | vim                              |
+
+** Devicons                                                         :E700:E7C5:
+
+   An iconic font made for developers, code jedis, ninjas, HTTPsters,
+   evangelists and nerds.
+
+   Web: https://vorillaz.github.io/devicons/
+
+   Codepoints: Nerd moved E600-E6C5 → E700-E7C5
+
+   |      | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | a | b | c | d | e | f |
+   | e700 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | e710 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | e720 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | e730 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | e740 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | e750 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | e760 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | e770 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | e780 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | e790 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | e7a0 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | e7b0 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | e7c0 |  |  |  |  |  |  |   |   |   |   |   |   |   |   |   |   |
+
+   | Hex  | C | PF  | Name                  |
+   |------+---+-----+-----------------------|
+   | e700 |  | dev | bing_small            |
+   | e701 |  | dev | css_tricks            |
+   | e702 |  | dev | git                   |
+   | e703 |  | dev | bitbucket             |
+   | e704 |  | dev | mysql                 |
+   | e705 |  | dev | streamline            |
+   | e706 |  | dev | database              |
+   | e707 |  | dev | dropbox               |
+   | e708 |  | dev | github_alt            |
+   | e709 |  | dev | github_badge          |
+   | e70a |  | dev | github                |
+   | e70b |  | dev | wordpress             |
+   | e70c |  | dev | visualstudio          |
+   | e70d |  | dev | jekyll_small          |
+   | e70e |  | dev | android               |
+   | e70f |  | dev | windows               |
+   | e710 |  | dev | stackoverflow         |
+   | e711 |  | dev | apple                 |
+   | e712 |  | dev | linux                 |
+   | e713 |  | dev | appstore              |
+   | e714 |  | dev | ghost_small           |
+   | e715 |  | dev | yahoo                 |
+   | e716 |  | dev | codepen               |
+   | e717 |  | dev | github_full           |
+   | e718 |  | dev | nodejs_small          |
+   | e719 |  | dev | nodejs                |
+   | e71a |  | dev | hackernews            |
+   | e71b |  | dev | ember                 |
+   | e71c |  | dev | dojo                  |
+   | e71d |  | dev | django                |
+   | e71e |  | dev | npm                   |
+   | e71f |  | dev | ghost                 |
+   | e720 |  | dev | modernizr             |
+   | e721 |  | dev | unity_small           |
+   | e722 |  | dev | rasberry_pi           |
+   | e723 |  | dev | blackberry            |
+   | e724 |  | dev | go                    |
+   | e725 |  | dev | git_branch            |
+   | e726 |  | dev | git_pull_request      |
+   | e727 |  | dev | git_merge             |
+   | e728 |  | dev | git_compare           |
+   | e729 |  | dev | git_commit            |
+   | e72a |  | dev | cssdeck               |
+   | e72b |  | dev | yahoo_small           |
+   | e72c |  | dev | techcrunch            |
+   | e72d |  | dev | smashing_magazine     |
+   | e72e |  | dev | netmagazine           |
+   | e72f |  | dev | codrops               |
+   | e730 |  | dev | phonegap              |
+   | e731 |  | dev | google_drive          |
+   | e732 |  | dev | html5_multimedia      |
+   | e733 |  | dev | html5_device_access   |
+   | e734 |  | dev | html5_connectivity    |
+   | e735 |  | dev | html5_3d_effects      |
+   | e736 |  | dev | html5                 |
+   | e737 |  | dev | scala                 |
+   | e738 |  | dev | java                  |
+   | e739 |  | dev | ruby                  |
+   | e73a |  | dev | ubuntu                |
+   | e73b |  | dev | ruby_on_rails         |
+   | e73c |  | dev | python                |
+   | e73d |  | dev | php                   |
+   | e73e |  | dev | markdown              |
+   | e73f |  | dev | laravel               |
+   | e740 |  | dev | magento               |
+   | e741 |  | dev | joomla                |
+   | e742 |  | dev | drupal                |
+   | e743 |  | dev | chrome                |
+   | e744 |  | dev | ie                    |
+   | e745 |  | dev | firefox               |
+   | e746 |  | dev | opera                 |
+   | e747 |  | dev | bootstrap             |
+   | e748 |  | dev | safari                |
+   | e749 |  | dev | css3                  |
+   | e74a |  | dev | css3_full             |
+   | e74b |  | dev | sass                  |
+   | e74c |  | dev | grunt                 |
+   | e74d |  | dev | bower                 |
+   | e74e |  | dev | javascript            |
+   | e74f |  | dev | javascript_shield     |
+   | e750 |  | dev | jquery                |
+   | e751 |  | dev | coffeescript          |
+   | e752 |  | dev | backbone              |
+   | e753 |  | dev | angular               |
+   | e754 |  | dev | jquery_ui             |
+   | e755 |  | dev | swift                 |
+   | e756 |  | dev | symfony               |
+   | e757 |  | dev | symfony_badge         |
+   | e758 |  | dev | less                  |
+   | e759 |  | dev | stylus                |
+   | e75a |  | dev | trello                |
+   | e75b |  | dev | atlassian             |
+   | e75c |  | dev | jira                  |
+   | e75d |  | dev | envato                |
+   | e75e |  | dev | snap_svg              |
+   | e75f |  | dev | raphael               |
+   | e760 |  | dev | chart                 |
+   | e761 |  | dev | compass               |
+   | e762 |  | dev | onedrive              |
+   | e763 |  | dev | gulp                  |
+   | e764 |  | dev | atom                  |
+   | e765 |  | dev | cisco                 |
+   | e766 |  | dev | nancy                 |
+   | e767 |  | dev | jenkins               |
+   | e768 |  | dev | clojure               |
+   | e769 |  | dev | perl                  |
+   | e76a |  | dev | clojure_alt           |
+   | e76b |  | dev | celluloid             |
+   | e76c |  | dev | w3c                   |
+   | e76d |  | dev | redis                 |
+   | e76e |  | dev | postgresql            |
+   | e76f |  | dev | webplatform           |
+   | e770 |  | dev | requirejs             |
+   | e771 |  | dev | opensource            |
+   | e772 |  | dev | typo3                 |
+   | e773 |  | dev | uikit                 |
+   | e774 |  | dev | doctrine              |
+   | e775 |  | dev | groovy                |
+   | e776 |  | dev | nginx                 |
+   | e777 |  | dev | haskell               |
+   | e778 |  | dev | zend                  |
+   | e779 |  | dev | gnu                   |
+   | e77a |  | dev | yeoman                |
+   | e77b |  | dev | heroku                |
+   | e77c |  | dev | msql_server           |
+   | e77d |  | dev | debian                |
+   | e77e |  | dev | travis                |
+   | e77f |  | dev | dotnet                |
+   | e780 |  | dev | codeigniter           |
+   | e781 |  | dev | javascript_badge      |
+   | e782 |  | dev | yii                   |
+   | e783 |  | dev | composer              |
+   | e784 |  | dev | krakenjs_badge        |
+   | e785 |  | dev | krakenjs              |
+   | e786 |  | dev | mozilla               |
+   | e787 |  | dev | firebase              |
+   | e788 |  | dev | sizzlejs              |
+   | e789 |  | dev | creativecommons       |
+   | e78a |  | dev | creativecommons_badge |
+   | e78b |  | dev | mitlicence            |
+   | e78c |  | dev | senchatouch           |
+   | e78d |  | dev | bugsense              |
+   | e78e |  | dev | extjs                 |
+   | e78f |  | dev | mootools_badge        |
+   | e790 |  | dev | mootools              |
+   | e791 |  | dev | ruby_rough            |
+   | e792 |  | dev | komodo                |
+   | e793 |  | dev | coda                  |
+   | e794 |  | dev | bintray               |
+   | e795 |  | dev | terminal              |
+   | e796 |  | dev | code                  |
+   | e797 |  | dev | responsive            |
+   | e798 |  | dev | dart                  |
+   | e799 |  | dev | aptana                |
+   | e79a |  | dev | mailchimp             |
+   | e79b |  | dev | netbeans              |
+   | e79c |  | dev | dreamweaver           |
+   | e79d |  | dev | brackets              |
+   | e79e |  | dev | eclipse               |
+   | e79f |  | dev | cloud9                |
+   | e7a0 |  | dev | scrum                 |
+   | e7a1 |  | dev | prolog                |
+   | e7a2 |  | dev | terminal_badge        |
+   | e7a3 |  | dev | code_badge            |
+   | e7a4 |  | dev | mongodb               |
+   | e7a5 |  | dev | meteor                |
+   | e7a6 |  | dev | meteorfull            |
+   | e7a7 |  | dev | fsharp                |
+   | e7a8 |  | dev | rust                  |
+   | e7a9 |  | dev | ionic                 |
+   | e7aa |  | dev | sublime               |
+   | e7ab |  | dev | appcelerator          |
+   | e7ac |  | dev | asterisk              |
+   | e7ad |  | dev | aws                   |
+   | e7ae |  | dev | digital_ocean         |
+   | e7af |  | dev | dlang                 |
+   | e7b0 |  | dev | docker                |
+   | e7b1 |  | dev | erlang                |
+   | e7b2 |  | dev | google_cloud_platform |
+   | e7b3 |  | dev | grails                |
+   | e7b4 |  | dev | illustrator           |
+   | e7b5 |  | dev | intellij              |
+   | e7b6 |  | dev | materializecss        |
+   | e7b7 |  | dev | openshift             |
+   | e7b8 |  | dev | photoshop             |
+   | e7b9 |  | dev | rackspace             |
+   | e7ba |  | dev | react                 |
+   | e7bb |  | dev | redhat                |
+   | e7bc |  | dev | scriptcs              |
+   | e7bd |  | dev |                       |
+   | e7be |  | dev |                       |
+   | e7bf |  | dev |                       |
+   | e7c0 |  | dev |                       |
+   | e7c1 |  | dev |                       |
+   | e7c2 |  | dev |                       |
+   | e7c3 |  | dev |                       |
+   | e7c4 |  | dev | sqllite               |
+   | e7c5 |  | dev | vim                   |
+
+** Font Awesome                                                     :F000:F2E0:
+
+   The iconic font and CSS toolkit.
+
+   Web: http://fontawesome.io/
+   Git: https://github.com/FortAwesome/Font-Awesome
+
+   Codepoints: F000-F2E0 with holes
+
+   |      | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | a | b | c | d | e | f |
+   | f000 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f010 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f020 |   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | f030 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f040 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f050 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f060 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f070 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f080 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f090 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f0a0 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f0b0 |  |  |  |   |   |   |   |   |   |   |   |   |   |   |   |   |
+   | f0c0 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f0d0 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f0e0 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f0f0 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f100 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f110 |  |  |  |  |  |  |   |   |  |  |  |  |  |  |  |   |
+   | f120 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f130 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f140 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f150 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f160 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f170 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f180 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f190 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f1a0 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f1b0 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f1c0 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f1d0 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f1e0 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f1f0 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f200 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f210 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f220 |   |  |  |  |  |  |  |  |  |  |  |  |  |  |   |   |
+   | f230 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f240 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f250 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f260 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f270 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f280 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f290 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f2a0 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f2b0 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f2c0 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f2d0 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+   | f2e0 |  |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+
+   | Hex  | C | PF | Name                                                  |
+   |------+---+----+-------------------------------------------------------|
+   | f000 |  | fa | glass                                                 |
+   | f001 |  | fa | music                                                 |
+   | f002 |  | fa | search                                                |
+   | f003 |  | fa | envelope_o                                            |
+   | f004 |  | fa | heart                                                 |
+   | f005 |  | fa | star                                                  |
+   | f006 |  | fa | star_o                                                |
+   | f007 |  | fa | user                                                  |
+   | f008 |  | fa | film                                                  |
+   | f009 |  | fa | th_large                                              |
+   | f00a |  | fa | th                                                    |
+   | f00b |  | fa | th_list                                               |
+   | f00c |  | fa | check                                                 |
+   | f00d |  | fa | times, close, remove                                  |
+   | f00e |  | fa | search_plus                                           |
+   | f010 |  | fa | search_minus                                          |
+   | f011 |  | fa | power_off                                             |
+   | f012 |  | fa | signal                                                |
+   | f013 |  | fa | cog, gear                                             |
+   | f014 |  | fa | trash_o                                               |
+   | f015 |  | fa | home                                                  |
+   | f016 |  | fa | file_o                                                |
+   | f017 |  | fa | clock_o                                               |
+   | f018 |  | fa | road                                                  |
+   | f019 |  | fa | download                                              |
+   | f01a |  | fa | arrow_circle_o_down                                   |
+   | f01b |  | fa | arrow_circle_o_up                                     |
+   | f01c |  | fa | inbox                                                 |
+   | f01d |  | fa | play_circle_o                                         |
+   | f01e |  | fa | repeat, rotate_right                                  |
+   | f021 |  | fa | refresh                                               |
+   | f022 |  | fa | list_alt                                              |
+   | f023 |  | fa | lock                                                  |
+   | f024 |  | fa | flag                                                  |
+   | f025 |  | fa | headphones                                            |
+   | f026 |  | fa | volume_off                                            |
+   | f027 |  | fa | volume_down                                           |
+   | f028 |  | fa | volume_up                                             |
+   | f029 |  | fa | qrcode                                                |
+   | f02a |  | fa | barcode                                               |
+   | f02b |  | fa | tag                                                   |
+   | f02c |  | fa | tags                                                  |
+   | f02d |  | fa | book                                                  |
+   | f02e |  | fa | bookmark                                              |
+   | f02f |  | fa | print                                                 |
+   | f030 |  | fa | camera                                                |
+   | f031 |  | fa | font                                                  |
+   | f032 |  | fa | bold                                                  |
+   | f033 |  | fa | italic                                                |
+   | f034 |  | fa | text_height                                           |
+   | f035 |  | fa | text_width                                            |
+   | f036 |  | fa | align_left                                            |
+   | f037 |  | fa | align_center                                          |
+   | f038 |  | fa | align_right                                           |
+   | f039 |  | fa | align_justify                                         |
+   | f03a |  | fa | list                                                  |
+   | f03b |  | fa | outdent, dedent                                       |
+   | f03c |  | fa | indent                                                |
+   | f03d |  | fa | video_camera                                          |
+   | f03e |  | fa | picture_o, image, photo                               |
+   | f040 |  | fa | pencil                                                |
+   | f041 |  | fa | map_marker                                            |
+   | f042 |  | fa | adjust                                                |
+   | f043 |  | fa | tint                                                  |
+   | f044 |  | fa | pencil_square_o, edit                                 |
+   | f045 |  | fa | share_square_o                                        |
+   | f046 |  | fa | check_square_o                                        |
+   | f047 |  | fa | arrows                                                |
+   | f048 |  | fa | step_backward                                         |
+   | f049 |  | fa | fast_backward                                         |
+   | f04a |  | fa | backward                                              |
+   | f04b |  | fa | play                                                  |
+   | f04c |  | fa | pause                                                 |
+   | f04d |  | fa | stop                                                  |
+   | f04e |  | fa | forward                                               |
+   | f050 |  | fa | fast_forward                                          |
+   | f051 |  | fa | step_forward                                          |
+   | f052 |  | fa | eject                                                 |
+   | f053 |  | fa | chevron_left                                          |
+   | f054 |  | fa | chevron_right                                         |
+   | f055 |  | fa | plus_circle                                           |
+   | f056 |  | fa | minus_circle                                          |
+   | f057 |  | fa | times_circle                                          |
+   | f058 |  | fa | check_circle                                          |
+   | f059 |  | fa | question_circle                                       |
+   | f05a |  | fa | info_circle                                           |
+   | f05b |  | fa | crosshairs                                            |
+   | f05c |  | fa | times_circle_o                                        |
+   | f05d |  | fa | check_circle_o                                        |
+   | f05e |  | fa | ban                                                   |
+   | f060 |  | fa | arrow_left                                            |
+   | f061 |  | fa | arrow_right                                           |
+   | f062 |  | fa | arrow_up                                              |
+   | f063 |  | fa | arrow_down                                            |
+   | f064 |  | fa | share, mail_forward                                   |
+   | f065 |  | fa | expand                                                |
+   | f066 |  | fa | compress                                              |
+   | f067 |  | fa | plus                                                  |
+   | f068 |  | fa | minus                                                 |
+   | f069 |  | fa | asterisk                                              |
+   | f06a |  | fa | exclamation_circle                                    |
+   | f06b |  | fa | gift                                                  |
+   | f06c |  | fa | leaf                                                  |
+   | f06d |  | fa | fire                                                  |
+   | f06e |  | fa | eye                                                   |
+   | f070 |  | fa | eye_slash                                             |
+   | f071 |  | fa | exclamation_triangle, warning                         |
+   | f072 |  | fa | plane                                                 |
+   | f073 |  | fa | calendar                                              |
+   | f074 |  | fa | random                                                |
+   | f075 |  | fa | comment                                               |
+   | f076 |  | fa | magnet                                                |
+   | f077 |  | fa | chevron_up                                            |
+   | f078 |  | fa | chevron_down                                          |
+   | f079 |  | fa | retweet                                               |
+   | f07a |  | fa | shopping_cart                                         |
+   | f07b |  | fa | folder                                                |
+   | f07c |  | fa | folder_open                                           |
+   | f07d |  | fa | arrows_v                                              |
+   | f07e |  | fa | arrows_h                                              |
+   | f080 |  | fa | bar_chart, bar_chart_o                                |
+   | f081 |  | fa | twitter_square                                        |
+   | f082 |  | fa | facebook_square                                       |
+   | f083 |  | fa | camera_retro                                          |
+   | f084 |  | fa | key                                                   |
+   | f085 |  | fa | cogs, gears                                           |
+   | f086 |  | fa | comments                                              |
+   | f087 |  | fa | thumbs_o_up                                           |
+   | f088 |  | fa | thumbs_o_down                                         |
+   | f089 |  | fa | star_half                                             |
+   | f08a |  | fa | heart_o                                               |
+   | f08b |  | fa | sign_out                                              |
+   | f08c |  | fa | linkedin_square                                       |
+   | f08d |  | fa | thumb_tack                                            |
+   | f08e |  | fa | external_link                                         |
+   | f090 |  | fa | sign_in                                               |
+   | f091 |  | fa | trophy                                                |
+   | f092 |  | fa | github_square                                         |
+   | f093 |  | fa | upload                                                |
+   | f094 |  | fa | lemon_o                                               |
+   | f095 |  | fa | phone                                                 |
+   | f096 |  | fa | square_o                                              |
+   | f097 |  | fa | bookmark_o                                            |
+   | f098 |  | fa | phone_square                                          |
+   | f099 |  | fa | twitter                                               |
+   | f09a |  | fa | facebook, facebook_f                                  |
+   | f09b |  | fa | github                                                |
+   | f09c |  | fa | unlock                                                |
+   | f09d |  | fa | credit_card                                           |
+   | f09e |  | fa | rss, feed                                             |
+   | f0a0 |  | fa | hdd_o                                                 |
+   | f0a1 |  | fa | bullhorn                                              |
+   | f0a2 |  | fa | bell_o                                                |
+   | f0a3 |  | fa | certificate                                           |
+   | f0a4 |  | fa | hand_o_right                                          |
+   | f0a5 |  | fa | hand_o_left                                           |
+   | f0a6 |  | fa | hand_o_up                                             |
+   | f0a7 |  | fa | hand_o_down                                           |
+   | f0a8 |  | fa | arrow_circle_left                                     |
+   | f0a9 |  | fa | arrow_circle_right                                    |
+   | f0aa |  | fa | arrow_circle_up                                       |
+   | f0ab |  | fa | arrow_circle_down                                     |
+   | f0ac |  | fa | globe                                                 |
+   | f0ad |  | fa | wrench                                                |
+   | f0ae |  | fa | tasks                                                 |
+   | f0b0 |  | fa | filter                                                |
+   | f0b1 |  | fa | briefcase                                             |
+   | f0b2 |  | fa | arrows_alt                                            |
+   | f0c0 |  | fa | users, group                                          |
+   | f0c1 |  | fa | link, chain                                           |
+   | f0c2 |  | fa | cloud                                                 |
+   | f0c3 |  | fa | flask                                                 |
+   | f0c4 |  | fa | scissors, cut                                         |
+   | f0c5 |  | fa | files_o, copy                                         |
+   | f0c6 |  | fa | paperclip                                             |
+   | f0c7 |  | fa | floppy_o, save                                        |
+   | f0c8 |  | fa | square                                                |
+   | f0c9 |  | fa | bars, navicon, reorder                                |
+   | f0ca |  | fa | list_ul                                               |
+   | f0cb |  | fa | list_ol                                               |
+   | f0cc |  | fa | strikethrough                                         |
+   | f0cd |  | fa | underline                                             |
+   | f0ce |  | fa | table                                                 |
+   | f0d0 |  | fa | magic                                                 |
+   | f0d1 |  | fa | truck                                                 |
+   | f0d2 |  | fa | pinterest                                             |
+   | f0d3 |  | fa | pinterest_square                                      |
+   | f0d4 |  | fa | google_plus_square                                    |
+   | f0d5 |  | fa | google_plus                                           |
+   | f0d6 |  | fa | money                                                 |
+   | f0d7 |  | fa | caret_down                                            |
+   | f0d8 |  | fa | caret_up                                              |
+   | f0d9 |  | fa | caret_left                                            |
+   | f0da |  | fa | caret_right                                           |
+   | f0db |  | fa | columns                                               |
+   | f0dc |  | fa | sort, unsorted                                        |
+   | f0dd |  | fa | sort_desc, sort_down                                  |
+   | f0de |  | fa | sort_asc, sort_up                                     |
+   | f0e0 |  | fa | envelope                                              |
+   | f0e1 |  | fa | linkedin                                              |
+   | f0e2 |  | fa | undo, rotate_left                                     |
+   | f0e3 |  | fa | gavel, legal                                          |
+   | f0e4 |  | fa | tachometer, dashboard                                 |
+   | f0e5 |  | fa | comment_o                                             |
+   | f0e6 |  | fa | comments_o                                            |
+   | f0e7 |  | fa | bolt, flash                                           |
+   | f0e8 |  | fa | sitemap                                               |
+   | f0e9 |  | fa | umbrella                                              |
+   | f0ea |  | fa | clipboard, paste                                      |
+   | f0eb |  | fa | lightbulb_o                                           |
+   | f0ec |  | fa | exchange                                              |
+   | f0ed |  | fa | cloud_download                                        |
+   | f0ee |  | fa | cloud_upload                                          |
+   | f0f0 |  | fa | user_md                                               |
+   | f0f1 |  | fa | stethoscope                                           |
+   | f0f2 |  | fa | suitcase                                              |
+   | f0f3 |  | fa | bell                                                  |
+   | f0f4 |  | fa | coffee                                                |
+   | f0f5 |  | fa | cutlery                                               |
+   | f0f6 |  | fa | file_text_o                                           |
+   | f0f7 |  | fa | building_o                                            |
+   | f0f8 |  | fa | hospital_o                                            |
+   | f0f9 |  | fa | ambulance                                             |
+   | f0fa |  | fa | medkit                                                |
+   | f0fb |  | fa | fighter_jet                                           |
+   | f0fc |  | fa | beer                                                  |
+   | f0fd |  | fa | h_square                                              |
+   | f0fe |  | fa | plus_square                                           |
+   | f100 |  | fa | angle_double_left                                     |
+   | f101 |  | fa | angle_double_right                                    |
+   | f102 |  | fa | angle_double_up                                       |
+   | f103 |  | fa | angle_double_down                                     |
+   | f104 |  | fa | angle_left                                            |
+   | f105 |  | fa | angle_right                                           |
+   | f106 |  | fa | angle_up                                              |
+   | f107 |  | fa | angle_down                                            |
+   | f108 |  | fa | desktop                                               |
+   | f109 |  | fa | laptop                                                |
+   | f10a |  | fa | tablet                                                |
+   | f10b |  | fa | mobile, mobile_phone                                  |
+   | f10c |  | fa | circle_o                                              |
+   | f10d |  | fa | quote_left                                            |
+   | f10e |  | fa | quote_right                                           |
+   | f110 |  | fa | spinner                                               |
+   | f111 |  | fa | circle                                                |
+   | f112 |  | fa | reply, mail_reply                                     |
+   | f113 |  | fa | github_alt                                            |
+   | f114 |  | fa | folder_o                                              |
+   | f115 |  | fa | folder_open_o                                         |
+   | f118 |  | fa | smile_o                                               |
+   | f119 |  | fa | frown_o                                               |
+   | f11a |  | fa | meh_o                                                 |
+   | f11b |  | fa | gamepad                                               |
+   | f11c |  | fa | keyboard_o                                            |
+   | f11d |  | fa | flag_o                                                |
+   | f11e |  | fa | flag_checkered                                        |
+   | f120 |  | fa | terminal                                              |
+   | f121 |  | fa | code                                                  |
+   | f122 |  | fa | reply_all, mail_reply_all                             |
+   | f123 |  | fa | star_half_o, star_half_empty, star_half_full          |
+   | f124 |  | fa | location_arrow                                        |
+   | f125 |  | fa | crop                                                  |
+   | f126 |  | fa | code_fork                                             |
+   | f127 |  | fa | chain_broken, unlink                                  |
+   | f128 |  | fa | question                                              |
+   | f129 |  | fa | info                                                  |
+   | f12a |  | fa | exclamation                                           |
+   | f12b |  | fa | superscript                                           |
+   | f12c |  | fa | subscript                                             |
+   | f12d |  | fa | eraser                                                |
+   | f12e |  | fa | puzzle_piece                                          |
+   | f130 |  | fa | microphone                                            |
+   | f131 |  | fa | microphone_slash                                      |
+   | f132 |  | fa | shield                                                |
+   | f133 |  | fa | calendar_o                                            |
+   | f134 |  | fa | fire_extinguisher                                     |
+   | f135 |  | fa | rocket                                                |
+   | f136 |  | fa | maxcdn                                                |
+   | f137 |  | fa | chevron_circle_left                                   |
+   | f138 |  | fa | chevron_circle_right                                  |
+   | f139 |  | fa | chevron_circle_up                                     |
+   | f13a |  | fa | chevron_circle_down                                   |
+   | f13b |  | fa | html5                                                 |
+   | f13c |  | fa | css3                                                  |
+   | f13d |  | fa | anchor                                                |
+   | f13e |  | fa | unlock_alt                                            |
+   | f140 |  | fa | bullseye                                              |
+   | f141 |  | fa | ellipsis_h                                            |
+   | f142 |  | fa | ellipsis_v                                            |
+   | f143 |  | fa | rss_square                                            |
+   | f144 |  | fa | play_circle                                           |
+   | f145 |  | fa | ticket                                                |
+   | f146 |  | fa | minus_square                                          |
+   | f147 |  | fa | minus_square_o                                        |
+   | f148 |  | fa | level_up                                              |
+   | f149 |  | fa | level_down                                            |
+   | f14a |  | fa | check_square                                          |
+   | f14b |  | fa | pencil_square                                         |
+   | f14c |  | fa | external_link_square                                  |
+   | f14d |  | fa | share_square                                          |
+   | f14e |  | fa | compass                                               |
+   | f150 |  | fa | caret_square_o_down, toggle_down                      |
+   | f151 |  | fa | caret_square_o_up, toggle_up                          |
+   | f152 |  | fa | caret_square_o_right, toggle_right                    |
+   | f153 |  | fa | eur, euro                                             |
+   | f154 |  | fa | gbp                                                   |
+   | f155 |  | fa | usd, dollar                                           |
+   | f156 |  | fa | inr, rupee                                            |
+   | f157 |  | fa | jpy, cny, rmb, yen                                    |
+   | f158 |  | fa | rub, rouble, ruble                                    |
+   | f159 |  | fa | krw, won                                              |
+   | f15a |  | fa | btc, bitcoin                                          |
+   | f15b |  | fa | file                                                  |
+   | f15c |  | fa | file_text                                             |
+   | f15d |  | fa | sort_alpha_asc                                        |
+   | f15e |  | fa | sort_alpha_desc                                       |
+   | f160 |  | fa | sort_amount_asc                                       |
+   | f161 |  | fa | sort_amount_desc                                      |
+   | f162 |  | fa | sort_numeric_asc                                      |
+   | f163 |  | fa | sort_numeric_desc                                     |
+   | f164 |  | fa | thumbs_up                                             |
+   | f165 |  | fa | thumbs_down                                           |
+   | f166 |  | fa | youtube_square                                        |
+   | f167 |  | fa | youtube                                               |
+   | f168 |  | fa | xing                                                  |
+   | f169 |  | fa | xing_square                                           |
+   | f16a |  | fa | youtube_play                                          |
+   | f16b |  | fa | dropbox                                               |
+   | f16c |  | fa | stack_overflow                                        |
+   | f16d |  | fa | instagram                                             |
+   | f16e |  | fa | flickr                                                |
+   | f170 |  | fa | adn                                                   |
+   | f171 |  | fa | bitbucket                                             |
+   | f172 |  | fa | bitbucket_square                                      |
+   | f173 |  | fa | tumblr                                                |
+   | f174 |  | fa | tumblr_square                                         |
+   | f175 |  | fa | long_arrow_down                                       |
+   | f176 |  | fa | long_arrow_up                                         |
+   | f177 |  | fa | long_arrow_left                                       |
+   | f178 |  | fa | long_arrow_right                                      |
+   | f179 |  | fa | apple                                                 |
+   | f17a |  | fa | windows                                               |
+   | f17b |  | fa | android                                               |
+   | f17c |  | fa | linux                                                 |
+   | f17d |  | fa | dribbble                                              |
+   | f17e |  | fa | skype                                                 |
+   | f180 |  | fa | foursquare                                            |
+   | f181 |  | fa | trello                                                |
+   | f182 |  | fa | female                                                |
+   | f183 |  | fa | male                                                  |
+   | f184 |  | fa | gratipay, gittip                                      |
+   | f185 |  | fa | sun_o                                                 |
+   | f186 |  | fa | moon_o                                                |
+   | f187 |  | fa | archive                                               |
+   | f188 |  | fa | bug                                                   |
+   | f189 |  | fa | vk                                                    |
+   | f18a |  | fa | weibo                                                 |
+   | f18b |  | fa | renren                                                |
+   | f18c |  | fa | pagelines                                             |
+   | f18d |  | fa | stack_exchange                                        |
+   | f18e |  | fa | arrow_circle_o_right                                  |
+   | f190 |  | fa | arrow_circle_o_left                                   |
+   | f191 |  | fa | caret_square_o_left, toggle_left                      |
+   | f192 |  | fa | dot_circle_o                                          |
+   | f193 |  | fa | wheelchair                                            |
+   | f194 |  | fa | vimeo_square                                          |
+   | f195 |  | fa | try, turkish_lira                                     |
+   | f196 |  | fa | plus_square_o                                         |
+   | f197 |  | fa | space_shuttle                                         |
+   | f198 |  | fa | slack                                                 |
+   | f199 |  | fa | envelope_square                                       |
+   | f19a |  | fa | wordpress                                             |
+   | f19b |  | fa | openid                                                |
+   | f19c |  | fa | university, bank, institution                         |
+   | f19d |  | fa | graduation_cap, mortar_board                          |
+   | f19e |  | fa | yahoo                                                 |
+   | f1a0 |  | fa | google                                                |
+   | f1a1 |  | fa | reddit                                                |
+   | f1a2 |  | fa | reddit_square                                         |
+   | f1a3 |  | fa | stumbleupon_circle                                    |
+   | f1a4 |  | fa | stumbleupon                                           |
+   | f1a5 |  | fa | delicious                                             |
+   | f1a6 |  | fa | digg                                                  |
+   | f1a7 |  | fa | pied_piper_pp                                         |
+   | f1a8 |  | fa | pied_piper_alt                                        |
+   | f1a9 |  | fa | drupal                                                |
+   | f1aa |  | fa | joomla                                                |
+   | f1ab |  | fa | language                                              |
+   | f1ac |  | fa | fax                                                   |
+   | f1ad |  | fa | building                                              |
+   | f1ae |  | fa | child                                                 |
+   | f1b0 |  | fa | paw                                                   |
+   | f1b1 |  | fa | spoon                                                 |
+   | f1b2 |  | fa | cube                                                  |
+   | f1b3 |  | fa | cubes                                                 |
+   | f1b4 |  | fa | behance                                               |
+   | f1b5 |  | fa | behance_square                                        |
+   | f1b6 |  | fa | steam                                                 |
+   | f1b7 |  | fa | steam_square                                          |
+   | f1b8 |  | fa | recycle                                               |
+   | f1b9 |  | fa | car, automobile                                       |
+   | f1ba |  | fa | taxi, cab                                             |
+   | f1bb |  | fa | tree                                                  |
+   | f1bc |  | fa | spotify                                               |
+   | f1bd |  | fa | deviantart                                            |
+   | f1be |  | fa | soundcloud                                            |
+   | f1c0 |  | fa | database                                              |
+   | f1c1 |  | fa | file_pdf_o                                            |
+   | f1c2 |  | fa | file_word_o                                           |
+   | f1c3 |  | fa | file_excel_o                                          |
+   | f1c4 |  | fa | file_powerpoint_o                                     |
+   | f1c5 |  | fa | file_image_o, file_photo_o, file_picture_o            |
+   | f1c6 |  | fa | file_archive_o, file_zip_o                            |
+   | f1c7 |  | fa | file_audio_o, file_sound_o                            |
+   | f1c8 |  | fa | file_video_o, file_movie_o                            |
+   | f1c9 |  | fa | file_code_o                                           |
+   | f1ca |  | fa | vine                                                  |
+   | f1cb |  | fa | codepen                                               |
+   | f1cc |  | fa | jsfiddle                                              |
+   | f1cd |  | fa | life_ring, life_bouy, life_buoy, life_saver, support  |
+   | f1ce |  | fa | circle_o_notch                                        |
+   | f1d0 |  | fa | rebel, ra, resistance                                 |
+   | f1d1 |  | fa | empire, ge                                            |
+   | f1d2 |  | fa | git_square                                            |
+   | f1d3 |  | fa | git                                                   |
+   | f1d4 |  | fa | hacker_news, y_combinator_square, yc_square           |
+   | f1d5 |  | fa | tencent_weibo                                         |
+   | f1d6 |  | fa | qq                                                    |
+   | f1d7 |  | fa | weixin, wechat                                        |
+   | f1d8 |  | fa | paper_plane, send                                     |
+   | f1d9 |  | fa | paper_plane_o, send_o                                 |
+   | f1da |  | fa | history                                               |
+   | f1db |  | fa | circle_thin                                           |
+   | f1dc |  | fa | header                                                |
+   | f1dd |  | fa | paragraph                                             |
+   | f1de |  | fa | sliders                                               |
+   | f1e0 |  | fa | share_alt                                             |
+   | f1e1 |  | fa | share_alt_square                                      |
+   | f1e2 |  | fa | bomb                                                  |
+   | f1e3 |  | fa | futbol_o, soccer_ball_o                               |
+   | f1e4 |  | fa | tty                                                   |
+   | f1e5 |  | fa | binoculars                                            |
+   | f1e6 |  | fa | plug                                                  |
+   | f1e7 |  | fa | slideshare                                            |
+   | f1e8 |  | fa | twitch                                                |
+   | f1e9 |  | fa | yelp                                                  |
+   | f1ea |  | fa | newspaper_o                                           |
+   | f1eb |  | fa | wifi                                                  |
+   | f1ec |  | fa | calculator                                            |
+   | f1ed |  | fa | paypal                                                |
+   | f1ee |  | fa | google_wallet                                         |
+   | f1f0 |  | fa | cc_visa                                               |
+   | f1f1 |  | fa | cc_mastercard                                         |
+   | f1f2 |  | fa | cc_discover                                           |
+   | f1f3 |  | fa | cc_amex                                               |
+   | f1f4 |  | fa | cc_paypal                                             |
+   | f1f5 |  | fa | cc_stripe                                             |
+   | f1f6 |  | fa | bell_slash                                            |
+   | f1f7 |  | fa | bell_slash_o                                          |
+   | f1f8 |  | fa | trash                                                 |
+   | f1f9 |  | fa | copyright                                             |
+   | f1fa |  | fa | at                                                    |
+   | f1fb |  | fa | eyedropper                                            |
+   | f1fc |  | fa | paint_brush                                           |
+   | f1fd |  | fa | birthday_cake                                         |
+   | f1fe |  | fa | area_chart                                            |
+   | f200 |  | fa | pie_chart                                             |
+   | f201 |  | fa | line_chart                                            |
+   | f202 |  | fa | lastfm                                                |
+   | f203 |  | fa | lastfm_square                                         |
+   | f204 |  | fa | toggle_off                                            |
+   | f205 |  | fa | toggle_on                                             |
+   | f206 |  | fa | bicycle                                               |
+   | f207 |  | fa | bus                                                   |
+   | f208 |  | fa | ioxhost                                               |
+   | f209 |  | fa | angellist                                             |
+   | f20a |  | fa | cc                                                    |
+   | f20b |  | fa | ils, shekel, sheqel                                   |
+   | f20c |  | fa | meanpath                                              |
+   | f20d |  | fa | buysellads                                            |
+   | f20e |  | fa | connectdevelop                                        |
+   | f210 |  | fa | dashcube                                              |
+   | f211 |  | fa | forumbee                                              |
+   | f212 |  | fa | leanpub                                               |
+   | f213 |  | fa | sellsy                                                |
+   | f214 |  | fa | shirtsinbulk                                          |
+   | f215 |  | fa | simplybuilt                                           |
+   | f216 |  | fa | skyatlas                                              |
+   | f217 |  | fa | cart_plus                                             |
+   | f218 |  | fa | cart_arrow_down                                       |
+   | f219 |  | fa | diamond                                               |
+   | f21a |  | fa | ship                                                  |
+   | f21b |  | fa | user_secret                                           |
+   | f21c |  | fa | motorcycle                                            |
+   | f21d |  | fa | street_view                                           |
+   | f21e |  | fa | heartbeat                                             |
+   | f221 |  | fa | venus                                                 |
+   | f222 |  | fa | mars                                                  |
+   | f223 |  | fa | mercury                                               |
+   | f224 |  | fa | transgender, intersex                                 |
+   | f225 |  | fa | transgender_alt                                       |
+   | f226 |  | fa | venus_double                                          |
+   | f227 |  | fa | mars_double                                           |
+   | f228 |  | fa | venus_mars                                            |
+   | f229 |  | fa | mars_stroke                                           |
+   | f22a |  | fa | mars_stroke_v                                         |
+   | f22b |  | fa | mars_stroke_h                                         |
+   | f22c |  | fa | neuter                                                |
+   | f22d |  | fa | genderless                                            |
+   | f230 |  | fa | facebook_official                                     |
+   | f231 |  | fa | pinterest_p                                           |
+   | f232 |  | fa | whatsapp                                              |
+   | f233 |  | fa | server                                                |
+   | f234 |  | fa | user_plus                                             |
+   | f235 |  | fa | user_times                                            |
+   | f236 |  | fa | bed, hotel                                            |
+   | f237 |  | fa | viacoin                                               |
+   | f238 |  | fa | train                                                 |
+   | f239 |  | fa | subway                                                |
+   | f23a |  | fa | medium                                                |
+   | f23b |  | fa | y_combinator, yc                                      |
+   | f23c |  | fa | optin_monster                                         |
+   | f23d |  | fa | opencart                                              |
+   | f23e |  | fa | expeditedssl                                          |
+   | f240 |  | fa | battery_full, battery, battery_4                      |
+   | f241 |  | fa | battery_three_quarters, battery_3                     |
+   | f242 |  | fa | battery_half, battery_2                               |
+   | f243 |  | fa | battery_quarter, battery_1                            |
+   | f244 |  | fa | battery_empty, battery_0                              |
+   | f245 |  | fa | mouse_pointer                                         |
+   | f246 |  | fa | i_cursor                                              |
+   | f247 |  | fa | object_group                                          |
+   | f248 |  | fa | object_ungroup                                        |
+   | f249 |  | fa | sticky_note                                           |
+   | f24a |  | fa | sticky_note_o                                         |
+   | f24b |  | fa | cc_jcb                                                |
+   | f24c |  | fa | cc_diners_club                                        |
+   | f24d |  | fa | clone                                                 |
+   | f24e |  | fa | balance_scale                                         |
+   | f250 |  | fa | hourglass_o                                           |
+   | f251 |  | fa | hourglass_start, hourglass_1                          |
+   | f252 |  | fa | hourglass_half, hourglass_2                           |
+   | f253 |  | fa | hourglass_end, hourglass_3                            |
+   | f254 |  | fa | hourglass                                             |
+   | f255 |  | fa | hand_rock_o, hand_grab_o                              |
+   | f256 |  | fa | hand_paper_o, hand_stop_o                             |
+   | f257 |  | fa | hand_scissors_o                                       |
+   | f258 |  | fa | hand_lizard_o                                         |
+   | f259 |  | fa | hand_spock_o                                          |
+   | f25a |  | fa | hand_pointer_o                                        |
+   | f25b |  | fa | hand_peace_o                                          |
+   | f25c |  | fa | trademark                                             |
+   | f25d |  | fa | registered                                            |
+   | f25e |  | fa | creative_commons                                      |
+   | f260 |  | fa | gg                                                    |
+   | f261 |  | fa | gg_circle                                             |
+   | f262 |  | fa | tripadvisor                                           |
+   | f263 |  | fa | odnoklassniki                                         |
+   | f264 |  | fa | odnoklassniki_square                                  |
+   | f265 |  | fa | get_pocket                                            |
+   | f266 |  | fa | wikipedia_w                                           |
+   | f267 |  | fa | safari                                                |
+   | f268 |  | fa | chrome                                                |
+   | f269 |  | fa | firefox                                               |
+   | f26a |  | fa | opera                                                 |
+   | f26b |  | fa | internet_explorer                                     |
+   | f26c |  | fa | television, tv                                        |
+   | f26d |  | fa | contao                                                |
+   | f26e |  | fa | 500px                                                 |
+   | f270 |  | fa | amazon                                                |
+   | f271 |  | fa | calendar_plus_o                                       |
+   | f272 |  | fa | calendar_minus_o                                      |
+   | f273 |  | fa | calendar_times_o                                      |
+   | f274 |  | fa | calendar_check_o                                      |
+   | f275 |  | fa | industry                                              |
+   | f276 |  | fa | map_pin                                               |
+   | f277 |  | fa | map_signs                                             |
+   | f278 |  | fa | map_o                                                 |
+   | f279 |  | fa | map                                                   |
+   | f27a |  | fa | commenting                                            |
+   | f27b |  | fa | commenting_o                                          |
+   | f27c |  | fa | houzz                                                 |
+   | f27d |  | fa | vimeo                                                 |
+   | f27e |  | fa | black_tie                                             |
+   | f280 |  | fa | fonticons                                             |
+   | f281 |  | fa | reddit_alien                                          |
+   | f282 |  | fa | edge                                                  |
+   | f283 |  | fa | credit_card_alt                                       |
+   | f284 |  | fa | codiepie                                              |
+   | f285 |  | fa | modx                                                  |
+   | f286 |  | fa | fort_awesome                                          |
+   | f287 |  | fa | usb                                                   |
+   | f288 |  | fa | product_hunt                                          |
+   | f289 |  | fa | mixcloud                                              |
+   | f28a |  | fa | scribd                                                |
+   | f28b |  | fa | pause_circle                                          |
+   | f28c |  | fa | pause_circle_o                                        |
+   | f28d |  | fa | stop_circle                                           |
+   | f28e |  | fa | stop_circle_o                                         |
+   | f290 |  | fa | shopping_bag                                          |
+   | f291 |  | fa | shopping_basket                                       |
+   | f292 |  | fa | hashtag                                               |
+   | f293 |  | fa | bluetooth                                             |
+   | f294 |  | fa | bluetooth_b                                           |
+   | f295 |  | fa | percent                                               |
+   | f296 |  | fa | gitlab                                                |
+   | f297 |  | fa | wpbeginner                                            |
+   | f298 |  | fa | wpforms                                               |
+   | f299 |  | fa | envira                                                |
+   | f29a |  | fa | universal_access                                      |
+   | f29b |  | fa | wheelchair_alt                                        |
+   | f29c |  | fa | question_circle_o                                     |
+   | f29d |  | fa | blind                                                 |
+   | f29e |  | fa | audio_description                                     |
+   | f2a0 |  | fa | volume_control_phone                                  |
+   | f2a1 |  | fa | braille                                               |
+   | f2a2 |  | fa | assistive_listening_systems                           |
+   | f2a3 |  | fa | american_sign_language_interpreting, asl_interpreting |
+   | f2a4 |  | fa | deaf, deafness, hard_of_hearing                       |
+   | f2a5 |  | fa | glide                                                 |
+   | f2a6 |  | fa | glide_g                                               |
+   | f2a7 |  | fa | sign_language, signing                                |
+   | f2a8 |  | fa | low_vision                                            |
+   | f2a9 |  | fa | viadeo                                                |
+   | f2aa |  | fa | viadeo_square                                         |
+   | f2ab |  | fa | snapchat                                              |
+   | f2ac |  | fa | snapchat_ghost                                        |
+   | f2ad |  | fa | snapchat_square                                       |
+   | f2ae |  | fa | pied_piper                                            |
+   | f2b0 |  | fa | first_order                                           |
+   | f2b1 |  | fa | yoast                                                 |
+   | f2b2 |  | fa | themeisle                                             |
+   | f2b3 |  | fa | google_plus_official, google_plus_circle              |
+   | f2b4 |  | fa | font_awesome, fa                                      |
+   | f2b5 |  | fa | handshake_o                                           |
+   | f2b6 |  | fa | envelope_open                                         |
+   | f2b7 |  | fa | envelope_open_o                                       |
+   | f2b8 |  | fa | linode                                                |
+   | f2b9 |  | fa | address_book                                          |
+   | f2ba |  | fa | address_book_o                                        |
+   | f2bb |  | fa | address_card, vcard                                   |
+   | f2bc |  | fa | address_card_o, vcard_o                               |
+   | f2bd |  | fa | user_circle                                           |
+   | f2be |  | fa | user_circle_o                                         |
+   | f2c0 |  | fa | user_o                                                |
+   | f2c1 |  | fa | id_badge                                              |
+   | f2c2 |  | fa | id_card, drivers_license                              |
+   | f2c3 |  | fa | id_card_o, drivers_license_o                          |
+   | f2c4 |  | fa | quora                                                 |
+   | f2c5 |  | fa | free_code_camp                                        |
+   | f2c6 |  | fa | telegram                                              |
+   | f2c7 |  | fa | thermometer_full, thermometer, thermometer_4          |
+   | f2c8 |  | fa | thermometer_three_quarters, thermometer_3             |
+   | f2c9 |  | fa | thermometer_half, thermometer_2                       |
+   | f2ca |  | fa | thermometer_quarter, thermometer_1                    |
+   | f2cb |  | fa | thermometer_empty, thermometer_0                      |
+   | f2cc |  | fa | shower                                                |
+   | f2cd |  | fa | bath, bathtub, s15                                    |
+   | f2ce |  | fa | podcast                                               |
+   | f2d0 |  | fa | window_maximize                                       |
+   | f2d1 |  | fa | window_minimize                                       |
+   | f2d2 |  | fa | window_restore                                        |
+   | f2d3 |  | fa | window_close, times_rectangle                         |
+   | f2d4 |  | fa | window_close_o, times_rectangle_o                     |
+   | f2d5 |  | fa | bandcamp                                              |
+   | f2d6 |  | fa | grav                                                  |
+   | f2d7 |  | fa | etsy                                                  |
+   | f2d8 |  | fa | imdb                                                  |
+   | f2d9 |  | fa | ravelry                                               |
+   | f2da |  | fa | eercast                                               |
+   | f2db |  | fa | microchip                                             |
+   | f2dc |  | fa | snowflake_o                                           |
+   | f2dd |  | fa | superpowers                                           |
+   | f2de |  | fa | wpexplorer                                            |
+   | f2e0 |  | fa | meetup                                                |
+
+** Font Awesome Extension                                           :E200:E2A9:
+
+   Simple Font Awesome Extension.
+
+   Web: https://andrelzgava.github.io/font-awesome-extension/
+   Git: https://github.com/AndreLZGava/font-awesome-extension
+
+   Codepoints: Nerd Fonts moved E000-E0A9 → E200-E2A9
+
+   |      | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | a | b | c | d | e | f |
+   | e200 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | e210 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | e220 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | e230 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | e240 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | e250 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | e260 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | e270 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | e280 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | e290 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | e2a0 |  |  |  |  |  |  |  |  |  |  |   |   |   |   |   |   |
+
+   | Hex  | C | PF  | Name             |
+   |------+---+-----+------------------|
+   | e200 |  | fae | smaller          |
+   | e201 |  | fae | snowing          |
+   | e202 |  | fae | soda             |
+   | e203 |  | fae | sofa             |
+   | e204 |  | fae | soup             |
+   | e205 |  | fae | spermatozoon     |
+   | e206 |  | fae | spin_double      |
+   | e207 |  | fae | stomach          |
+   | e208 |  | fae | storm            |
+   | e209 |  | fae | telescope        |
+   | e20a |  | fae | thermometer      |
+   | e20b |  | fae | thermometer_high |
+   | e20c |  | fae | thermometer_low  |
+   | e20d |  | fae | thin_close       |
+   | e20e |  | fae | toilet           |
+   | e20f |  | fae | tools            |
+   | e210 |  | fae | tooth            |
+   | e211 |  | fae | uterus           |
+   | e212 |  | fae | w3c              |
+   | e213 |  | fae | walking          |
+   | e214 |  | fae | virus            |
+   | e215 |  | fae | telegram_circle  |
+   | e216 |  | fae | slash            |
+   | e217 |  | fae | telegram         |
+   | e218 |  | fae | shirt            |
+   | e219 |  | fae | tacos            |
+   | e21a |  | fae | sushi            |
+   | e21b |  | fae | triangle_ruler   |
+   | e21c |  | fae | tree             |
+   | e21d |  | fae | sun_cloud        |
+   | e21e |  | fae | ruby_o           |
+   | e21f |  | fae | ruler            |
+   | e220 |  | fae | umbrella         |
+   | e221 |  | fae | medicine         |
+   | e222 |  | fae | microscope       |
+   | e223 |  | fae | milk_bottle      |
+   | e224 |  | fae | minimize         |
+   | e225 |  | fae | molecule         |
+   | e226 |  | fae | moon_cloud       |
+   | e227 |  | fae | mushroom         |
+   | e228 |  | fae | mustache         |
+   | e229 |  | fae | mysql            |
+   | e22a |  | fae | nintendo         |
+   | e22b |  | fae | palette_color    |
+   | e22c |  | fae | pi               |
+   | e22d |  | fae | pizza            |
+   | e22e |  | fae | planet           |
+   | e22f |  | fae | plant            |
+   | e230 |  | fae | playstation      |
+   | e231 |  | fae | poison           |
+   | e232 |  | fae | popcorn          |
+   | e233 |  | fae | popsicle         |
+   | e234 |  | fae | pulse            |
+   | e235 |  | fae | python           |
+   | e236 |  | fae | quora_circle     |
+   | e237 |  | fae | quora_square     |
+   | e238 |  | fae | radioactive      |
+   | e239 |  | fae | raining          |
+   | e23a |  | fae | real_heart       |
+   | e23b |  | fae | refrigerator     |
+   | e23c |  | fae | restore          |
+   | e23d |  | fae | ring             |
+   | e23e |  | fae | ruby             |
+   | e23f |  | fae | fingerprint      |
+   | e240 |  | fae | floppy           |
+   | e241 |  | fae | footprint        |
+   | e242 |  | fae | freecodecamp     |
+   | e243 |  | fae | galaxy           |
+   | e244 |  | fae | galery           |
+   | e245 |  | fae | glass            |
+   | e246 |  | fae | google_drive     |
+   | e247 |  | fae | google_play      |
+   | e248 |  | fae | gps              |
+   | e249 |  | fae | grav             |
+   | e24a |  | fae | guitar           |
+   | e24b |  | fae | gut              |
+   | e24c |  | fae | halter           |
+   | e24d |  | fae | hamburger        |
+   | e24e |  | fae | hat              |
+   | e24f |  | fae | hexagon          |
+   | e250 |  | fae | high_heel        |
+   | e251 |  | fae | hotdog           |
+   | e252 |  | fae | ice_cream        |
+   | e253 |  | fae | id_card          |
+   | e254 |  | fae | imdb             |
+   | e255 |  | fae | infinity         |
+   | e256 |  | fae | java             |
+   | e257 |  | fae | layers           |
+   | e258 |  | fae | lips             |
+   | e259 |  | fae | lipstick         |
+   | e25a |  | fae | liver            |
+   | e25b |  | fae | lung             |
+   | e25c |  | fae | makeup_brushes   |
+   | e25d |  | fae | maximize         |
+   | e25e |  | fae | wallet           |
+   | e25f |  | fae | chess_horse      |
+   | e260 |  | fae | chess_king       |
+   | e261 |  | fae | chess_pawn       |
+   | e262 |  | fae | chess_queen      |
+   | e263 |  | fae | chess_tower      |
+   | e264 |  | fae | chesse           |
+   | e265 |  | fae | chilli           |
+   | e266 |  | fae | chip             |
+   | e267 |  | fae | cicling          |
+   | e268 |  | fae | cloud            |
+   | e269 |  | fae | cockroach        |
+   | e26a |  | fae | coffe_beans      |
+   | e26b |  | fae | coins            |
+   | e26c |  | fae | comb             |
+   | e26d |  | fae | comet            |
+   | e26e |  | fae | crown            |
+   | e26f |  | fae | cup_coffe        |
+   | e270 |  | fae | dice             |
+   | e271 |  | fae | disco            |
+   | e272 |  | fae | dna              |
+   | e273 |  | fae | donut            |
+   | e274 |  | fae | dress            |
+   | e275 |  | fae | drop             |
+   | e276 |  | fae | ello             |
+   | e277 |  | fae | envelope_open    |
+   | e278 |  | fae | envelope_open_o  |
+   | e279 |  | fae | equal            |
+   | e27a |  | fae | equal_bigger     |
+   | e27b |  | fae | feedly           |
+   | e27c |  | fae | file_export      |
+   | e27d |  | fae | file_import      |
+   | e27e |  | fae | wind             |
+   | e27f |  | fae | atom             |
+   | e280 |  | fae | bacteria         |
+   | e281 |  | fae | banana           |
+   | e282 |  | fae | bath             |
+   | e283 |  | fae | bed              |
+   | e284 |  | fae | benzene          |
+   | e285 |  | fae | bigger           |
+   | e286 |  | fae | biohazard        |
+   | e287 |  | fae | blogger_circle   |
+   | e288 |  | fae | blogger_square   |
+   | e289 |  | fae | bones            |
+   | e28a |  | fae | book_open        |
+   | e28b |  | fae | book_open_o      |
+   | e28c |  | fae | brain            |
+   | e28d |  | fae | bread            |
+   | e28e |  | fae | butterfly        |
+   | e28f |  | fae | carot            |
+   | e290 |  | fae | cc_by            |
+   | e291 |  | fae | cc_cc            |
+   | e292 |  | fae | cc_nc            |
+   | e293 |  | fae | cc_nc_eu         |
+   | e294 |  | fae | cc_nc_jp         |
+   | e295 |  | fae | cc_nd            |
+   | e296 |  | fae | cc_remix         |
+   | e297 |  | fae | cc_sa            |
+   | e298 |  | fae | cc_share         |
+   | e299 |  | fae | cc_zero          |
+   | e29a |  | fae | checklist_o      |
+   | e29b |  | fae | cherry           |
+   | e29c |  | fae | chess_bishop     |
+   | e29d |  | fae | xbox             |
+   | e29e |  | fae | apple_fruit      |
+   | e29f |  | fae | chicken_thigh    |
+   | e2a0 |  | fae | gift_card        |
+   | e2a1 |  | fae | injection        |
+   | e2a2 |  | fae | isle             |
+   | e2a3 |  | fae | lollipop         |
+   | e2a4 |  | fae | loyalty_card     |
+   | e2a5 |  | fae | meat             |
+   | e2a6 |  | fae | mountains        |
+   | e2a7 |  | fae | orange           |
+   | e2a8 |  | fae | peach            |
+   | e2a9 |  | fae | pear             |
+
+** Octicons                                                         :F400:F4A8:
+
+   GitHub's icons.
+
+   Web: https://octicons.github.com/
+   Git: https://github.com/primer/octicons
+
+   Codepoints: Nerd Fonts moved F000-F105 with holes → F400-F4A8, F27C →
+   F67C.
+
+   |      | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | a | b | c | d | e | f |
+   | f400 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | f410 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | f420 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | f430 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | f440 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | f450 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | f460 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | f470 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | f480 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | f490 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | f4a0 |  |  |  |  |  |  |  |  |  |   |   |   |   |   |   |   |
+   | f67c |   |   |   |   |   |   |   |   |   |   |   |   |  |   |   |   |
+
+   | Hex  | C | PF  | Name                   |
+   |------+---+-----+------------------------|
+   | f400 |  | oct | light_bulb             |
+   | f401 |  | oct | repo                   |
+   | f402 |  | oct | repo_forked            |
+   | f403 |  | oct | repo_push              |
+   | f404 |  | oct | repo_pull              |
+   | f405 |  | oct | book                   |
+   | f406 |  | oct | octoface               |
+   | f407 |  | oct | git_pull_request       |
+   | f408 |  | oct | mark_github            |
+   | f409 |  | oct | cloud_download         |
+   | f40a |  | oct | cloud_upload           |
+   | f40b |  | oct | keyboard               |
+   | f40c |  | oct | gist                   |
+   | f40d |  | oct | file_code              |
+   | f40e |  | oct | file_text              |
+   | f40f |  | oct | file_media             |
+   | f410 |  | oct | file_zip               |
+   | f411 |  | oct | file_pdf               |
+   | f412 |  | oct | tag                    |
+   | f413 |  | oct | file_directory         |
+   | f414 |  | oct | file_submodule         |
+   | f415 |  | oct | person                 |
+   | f416 |  | oct | jersey                 |
+   | f417 |  | oct | git_commit             |
+   | f418 |  | oct | git_branch             |
+   | f419 |  | oct | git_merge              |
+   | f41a |  | oct | mirror                 |
+   | f41b |  | oct | issue_opened           |
+   | f41c |  | oct | issue_reopened         |
+   | f41d |  | oct | issue_closed           |
+   | f41e |  | oct | star                   |
+   | f41f |  | oct | comment                |
+   | f420 |  | oct | question               |
+   | f421 |  | oct | alert                  |
+   | f422 |  | oct | search                 |
+   | f423 |  | oct | gear                   |
+   | f424 |  | oct | radio_tower            |
+   | f425 |  | oct | tools                  |
+   | f426 |  | oct | sign_out               |
+   | f427 |  | oct | rocket                 |
+   | f428 |  | oct | rss                    |
+   | f429 |  | oct | clippy                 |
+   | f42a |  | oct | sign_in                |
+   | f42b |  | oct | organization           |
+   | f42c |  | oct | device_mobile          |
+   | f42d |  | oct | unfold                 |
+   | f42e |  | oct | check                  |
+   | f42f |  | oct | mail                   |
+   | f430 |  | oct | mail_read              |
+   | f431 |  | oct | arrow_up               |
+   | f432 |  | oct | arrow_right            |
+   | f433 |  | oct | arrow_down             |
+   | f434 |  | oct | arrow_left             |
+   | f435 |  | oct | pin                    |
+   | f436 |  | oct | gift                   |
+   | f437 |  | oct | graph                  |
+   | f438 |  | oct | triangle_left          |
+   | f439 |  | oct | credit_card            |
+   | f43a |  | oct | clock                  |
+   | f43b |  | oct | ruby                   |
+   | f43c |  | oct | broadcast              |
+   | f43d |  | oct | key                    |
+   | f43e |  | oct | repo_force_push        |
+   | f43f |  | oct | repo_clone             |
+   | f440 |  | oct | diff                   |
+   | f441 |  | oct | eye                    |
+   | f442 |  | oct | comment_discussion     |
+   | f443 |  | oct | mail_reply             |
+   | f444 |  | oct | primitive_dot          |
+   | f445 |  | oct | primitive_square       |
+   | f446 |  | oct | device_camera          |
+   | f447 |  | oct | device_camera_video    |
+   | f448 |  | oct | pencil                 |
+   | f449 |  | oct | info                   |
+   | f44a |  | oct | triangle_right         |
+   | f44b |  | oct | triangle_down          |
+   | f44c |  | oct | link                   |
+   | f44d |  | oct | plus                   |
+   | f44e |  | oct | three_bars             |
+   | f44f |  | oct | code                   |
+   | f450 |  | oct | location               |
+   | f451 |  | oct | list_unordered         |
+   | f452 |  | oct | list_ordered           |
+   | f453 |  | oct | quote                  |
+   | f454 |  | oct | versions               |
+   | f455 |  | oct | calendar               |
+   | f456 |  | oct | lock                   |
+   | f457 |  | oct | diff_added             |
+   | f458 |  | oct | diff_removed           |
+   | f459 |  | oct | diff_modified          |
+   | f45a |  | oct | diff_renamed           |
+   | f45b |  | oct | horizontal_rule        |
+   | f45c |  | oct | arrow_small_right      |
+   | f45d |  | oct | milestone              |
+   | f45e |  | oct | checklist              |
+   | f45f |  | oct | megaphone              |
+   | f460 |  | oct | chevron_right          |
+   | f461 |  | oct | bookmark               |
+   | f462 |  | oct | settings               |
+   | f463 |  | oct | dashboard              |
+   | f464 |  | oct | history                |
+   | f465 |  | oct | link_external          |
+   | f466 |  | oct | mute                   |
+   | f467 |  | oct | x                      |
+   | f468 |  | oct | circle_slash           |
+   | f469 |  | oct | pulse                  |
+   | f46a |  | oct | sync                   |
+   | f46b |  | oct | telescope              |
+   | f46c |  | oct | gist_secret            |
+   | f46d |  | oct | home                   |
+   | f46e |  | oct | stop                   |
+   | f46f |  | oct | bug                    |
+   | f470 |  | oct | logo_github            |
+   | f471 |  | oct | file_binary            |
+   | f472 |  | oct | database               |
+   | f473 |  | oct | server                 |
+   | f474 |  | oct | diff_ignored           |
+   | f475 |  | oct | ellipsis               |
+   | f476 |  | oct | no_newline             |
+   | f477 |  | oct | hubot                  |
+   | f478 |  | oct | arrow_small_up         |
+   | f479 |  | oct | arrow_small_down       |
+   | f47a |  | oct | arrow_small_left       |
+   | f47b |  | oct | chevron_up             |
+   | f47c |  | oct | chevron_down           |
+   | f47d |  | oct | chevron_left           |
+   | f47e |  | oct | triangle_up            |
+   | f47f |  | oct | git_compare            |
+   | f480 |  | oct | logo_gist              |
+   | f481 |  | oct | file_symlink_file      |
+   | f482 |  | oct | file_symlink_directory |
+   | f483 |  | oct | squirrel               |
+   | f484 |  | oct | globe                  |
+   | f485 |  | oct | unmute                 |
+   | f486 |  | oct | mention                |
+   | f487 |  | oct | package                |
+   | f488 |  | oct | browser                |
+   | f489 |  | oct | terminal               |
+   | f48a |  | oct | markdown               |
+   | f48b |  | oct | dash                   |
+   | f48c |  | oct | fold                   |
+   | f48d |  | oct | inbox                  |
+   | f48e |  | oct | trashcan               |
+   | f48f |  | oct | paintcan               |
+   | f490 |  | oct | flame                  |
+   | f491 |  | oct | briefcase              |
+   | f492 |  | oct | plug                   |
+   | f493 |  | oct | circuit_board          |
+   | f494 |  | oct | mortar_board           |
+   | f495 |  | oct | law                    |
+   | f496 |  | oct | thumbsup               |
+   | f497 |  | oct | thumbsdown             |
+   | f498 |  | oct | desktop_download       |
+   | f499 |  | oct | beaker                 |
+   | f49a |  | oct | bell                   |
+   | f49b |  | oct | watch                  |
+   | f49c |  | oct | shield                 |
+   | f49d |  | oct | bold                   |
+   | f49e |  | oct | text_size              |
+   | f49f |  | oct | italic                 |
+   | f4a0 |  | oct | tasklist               |
+   | f4a1 |  | oct | verified               |
+   | f4a2 |  | oct | smiley                 |
+   | f4a3 |  | oct | unverified             |
+   | f4a4 |  | oct | ellipses               |
+   | f4a5 |  | oct | file                   |
+   | f4a6 |  | oct | grabber                |
+   | f4a7 |  | oct | plus_small             |
+   | f4a8 |  | oct | reply                  |
+   | f67c |  | oct | device_desktop         |
+
+** Powerline Extra Symbols                                          :E0A0:E0D4:
+
+   Provides extra Powerline separator glyphs and a column number glyph
+   (CN).
+
+   Git: https://github.com/ryanoasis/powerline-extra-symbols
+
+   Codepoints: E0A0-E0A3 E0B0-E0BF E0C0-E0C8 E0CC-E0CF E0D0-E0D2 E0D4
+
+   |      | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | a | b | c | d | e | f |
+   | e0a0 |  |  |  |  |   |   |   |   |   |   |   |   |   |   |   |   |
+   | e0b0 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | e0c0 |  |  |  |  |  |  |  |  |  |   |  |   |  |  |  |  |
+   | e0d0 |  |  |  |   |  |   |   |   |   |   |   |   |   |   |   |   |
+
+   | Hex  | C | PF  | Name                             |
+   |------+---+-----+----------------------------------|
+   | e0a0 |  | pl  | branch                           |
+   | e0a1 |  | pl  | line_number, current_line        |
+   | e0a2 |  | pl  | hostname, readonly               |
+   | e0a3 |  | ple | column_number, current_column    |
+   | e0b0 |  | pl  | left_hard_divider                |
+   | e0b1 |  | pl  | left_soft_divider                |
+   | e0b2 |  | pl  | right_hard_divider               |
+   | e0b3 |  | pl  | right_soft_divider               |
+   | e0b4 |  | ple | right_half_circle_thick          |
+   | e0b5 |  | ple | right_half_circle_thin           |
+   | e0b6 |  | ple | left_half_circle_thick           |
+   | e0b7 |  | ple | left_half_circle_thin            |
+   | e0b8 |  | ple | lower_left_triangle              |
+   | e0b9 |  | ple | backslash_separator              |
+   | e0ba |  | ple | lower_right_triangle             |
+   | e0bb |  | ple | forwardslash_separator           |
+   | e0bc |  | ple | upper_left_triangle              |
+   | e0bd |  | ple | forwardslash_separator_redundant |
+   | e0be |  | ple | upper_right_triangle             |
+   | e0bf |  | ple | backslash_separator_redundant    |
+   | e0c0 |  | ple | flame_thick                      |
+   | e0c1 |  | ple | flame_thin                       |
+   | e0c2 |  | ple | flame_thick_mirrored             |
+   | e0c3 |  | ple | flame_thin_mirrored              |
+   | e0c4 |  | ple | pixelated_squares_small          |
+   | e0c5 |  | ple | pixelated_squares_small_mirrored |
+   | e0c6 |  | ple | pixelated_squares_big            |
+   | e0c7 |  | ple | pixelated_squares_big_mirrored   |
+   | e0c8 |  | ple | ice_waveform                     |
+   | e0ca |  | ple | ice_waveform_mirrored            |
+   | e0cc |  | ple | honeycomb                        |
+   | e0cd |  | ple | honeycomb_outline                |
+   | e0ce |  | ple | lego_separator                   |
+   | e0cf |  | ple | lego_separator_thin              |
+   | e0d0 |  | ple | lego_block_facing                |
+   | e0d1 |  | ple | lego_block_sideways              |
+   | e0d2 |  | ple | trapezoid_top_bottom             |
+   | e0d4 |  | ple | trapezoid_top_bottom_mirrored    |
+
+** IEC Power Symbols                                                :23FB:23FE:
+
+   |      | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | a | b | c | d | e | f |
+   | 23f0 |   |   |   |   |   |   |   |   |   |   |   | ⏻ | ⏼ | ⏽ | ⏾ |   |
+   | 2b50 |   |   |   |   |   |   |   |   | ⭘ |   |   |   |   |   |   |   |
+
+   | Hex  | C | PR  | Name         |
+   |------+---+-----+--------------|
+   | 23fb | ⏻ | iec | power        |
+   | 23fc | ⏼ | iec | toggle_power |
+   | 23fd | ⏽ | iec | power_on     |
+   | 23fe | ⏾ | iec | sleep_mode   |
+   | 2b58 | ⭘ | iec | power_off    |
+
+** Font Linux                                                       :F300:F31C:
+
+   Font-logos is an icon font containing logos of popular linux
+   distributions and other open source software for inclusion in
+   websites.
+
+   Git: https://github.com/Lukas-W/font-logos
+
+   Codepoints: Nerd Fonts moved F100-F11C with holes → F300-F31C
+
+   |      | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | a | b | c | d | e | f |
+   | f300 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   | f310 |  |  |  |  |   |   |   |   |   |   |   |   |   |   |   |   |
+
+   | Hex  | C | PF    | Name              |
+   |------+---+-------+-------------------|
+   | f300 |  | linux | archlinux         |
+   | f301 |  | linux | centos            |
+   | f302 |  | linux | debian            |
+   | f303 |  | linux | fedora            |
+   | f304 |  | linux | linuxmint         |
+   | f305 |  | linux | linuxmint_inverse |
+   | f306 |  | linux | mageia            |
+   | f307 |  | linux | mandriva          |
+   | f308 |  | linux | opensuse          |
+   | f309 |  | linux | redhat            |
+   | f30a |  | linux | slackware         |
+   | f30b |  | linux | slackware_inverse |
+   | f30c |  | linux | ubuntu            |
+   | f30d |  | linux | ubuntu_inverse    |
+   | f30e |  | linux | freebsd           |
+   | f30f |  | linux | coreos            |
+   | f310 |  | linux | gentoo            |
+   | f311 |  | linux | elementary        |
+   | f312 |  | linux | fedora_inverse    |
+   | f313 |  | linux | sabayon           |
+
+** Pomodoro Technique                                               :E000:E00A:
+
+   Symbols for the "Pomodoro Technique"®.
+
+   Git: https://github.com/gabrielelana/pomicons
+
+   Codepoints: E000-E00A
+
+   |      | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | a | b | c | d | e | f |
+   | e000 |  |  |  |  |  |  |  |  |  |  |  |   |   |   |   |   |
+
+   | Hex  | C | PF  | Name                  |
+   |------+---+-----+-----------------------|
+   | e000 |  | pom | clean_code            |
+   | e001 |  | pom | pomodoro_done         |
+   | e002 |  | pom | pomodoro_estimated    |
+   | e003 |  | pom | pomodoro_ticking      |
+   | e004 |  | pom | pomodoro_squashed     |
+   | e005 |  | pom | short_pause           |
+   | e006 |  | pom | long_pause            |
+   | e007 |  | pom | away                  |
+   | e008 |  | pom | pair_programming      |
+   | e009 |  | pom | internal_interruption |
+   | e00a |  | pom | external_interruption |
+
+* 
+
