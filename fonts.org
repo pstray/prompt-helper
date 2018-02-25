@@ -23,7 +23,7 @@
    | e610 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
    | e620 |  |  |  |  |  |  |  |  |  |  |  |  |   |   |   |   |
 
-   | Hex  | C |        | Name                             |
+   | Hex  | C | PF     | Name                             |
    |------+---+--------+----------------------------------|
    | e5fa |  | custom | folder_npm                       |
    | e5fb |  | custom | folder_git{,_branch}             |
@@ -1491,13 +1491,13 @@
    | 23f0 |   |   |   |   |   |   |   |   |   |   |   | ⏻ | ⏼ | ⏽ | ⏾ |   |
    | 2b50 |   |   |   |   |   |   |   |   | ⭘ |   |   |   |   |   |   |   |
 
-   | Hex  | C | PR  | Name         |
-   |------+---+-----+--------------|
-   | 23fb | ⏻ | iec | power        |
-   | 23fc | ⏼ | iec | toggle_power |
-   | 23fd | ⏽ | iec | power_on     |
-   | 23fe | ⏾ | iec | sleep_mode   |
-   | 2b58 | ⭘ | iec | power_off    |
+   | Hex  | C | PR  | Name         | UC Name             |
+   |------+---+-----+--------------+---------------------|
+   | 23fb | ⏻ | iec | power        | POWER SYMBOL        |
+   | 23fc | ⏼ | iec | toggle_power | POWER ON-OFF SYMBOL |
+   | 23fd | ⏽ | iec | power_on     | POWER ON SYMBOL     |
+   | 23fe | ⏾ | iec | sleep_mode   | POWER SLEEP SYMBOL  |
+   | 2b58 | ⭘ | iec | power_off    | HEAVY CIRCLE        |
 
 ** Font Linux                                                       :F300:F31C:
 
@@ -1561,5 +1561,27 @@
    | e009 |  | pom | internal_interruption |
    | e00a |  | pom | external_interruption |
 
-* 
+** Other symbols present
 
+*** Trigrams                                                        :2630:2637:
+
+    |      | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+    |------+---+---+---+---+---+---+---+---|
+    | 2630 | ☰ | ☱ | ☲ | ☳ | ☴ | ☵ | ☶ | ☷ |
+
+    |  Hex | C | PF      | Name     | UC Name              |
+    |------+---+---------+----------+----------------------|
+    | 2630 | ☰ | trigram | heaven   | TRIGRAM FOR HEAVEN   |
+    | 2631 | ☱ | trigram | lake     | TRIGRAM FOR LAKE     |
+    | 2632 | ☲ | trigram | fire     | TRIGRAM FOR FIRE     |
+    | 2633 | ☳ | trigram | thunder  | TRIGRAM FOR THUNDER  |
+    | 2634 | ☴ | trigram | wind     | TRIGRAM FOR WIND     |
+    | 2635 | ☵ | trigram | water    | TRIGRAM FOR WATER    |
+    | 2636 | ☶ | trigram | mountain | TRIGRAM FOR MOUNTAIN |
+    | 2637 | ☷ | trigram | earth    | TRIGRAM FOR EARTH    |
+
+*** Marks
+
+    | Hex  | C | PF | Name | UC Name                   | Type           |
+    |------+---+----+------+---------------------------+----------------|
+    | 033f | o̿ |    |      | COMBINING DOUBLE OVERLINE | NonspacingMark |
