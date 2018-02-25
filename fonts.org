@@ -10,8 +10,11 @@
   Web: https://nerdfonts.com/
   Git: https://github.com/ryanoasis/nerd-fonts
 
-  This font site has a lot of programming fonts merged with several icon
+  This site has a lot of programming fonts merged with several icon
   fonts.
+
+  The following lists are the additional glyphs compared to standard
+  "DejaVu Sand Mono".
 
 ** Seti-UI + Custom                                                 :E5FA:E62B:
 
