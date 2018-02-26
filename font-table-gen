@@ -1,0 +1,84 @@
+#! /usr/bin/perl
+
+use strict;
+use warnings;
+
+use Data::Dumper;
+
+$Data::Dumper::Sortkeys = $Data::Dumper::Indent = 1;
+
+use open ':locale';
+
+use Unicode::UCD qw(charinfo general_categories);
+
+my $uc = general_categories();
+
+open my $fc_cat, "-|:utf8", "fc-cat"
+  or die "open: $!\n";
+while (<$fc_cat>) {
+    if (/^"((?:[^"\\]|\\.)+)"\s+(\d+)\s+"((?:[^"\\]+|\\.)*)"$/) {
+	my($file,$index,$params) = ($1,$2,"$3");
+	next if $params eq ".dir";
+
+	$params="family=$params";
+	
+	$params =~ s/(\\.)/eval qq'"$1"'/ge;
+	my @params =
+	  $params =~ /(?:^|\G:)((?:[^\\:]+|\\.)*)/sg;
+	my %params = ( file => $file,
+		       index => $index,
+		     );
+	for (@params) {
+	    s/(\\.)/eval qq'"$1"'/ge;
+	    my($key,$val) = m/^([^=]+)=(.*)/;
+	    $params{$key} = $val;
+	}
+	for my $key (keys %params) {
+	    if ($params{"${key}lang"}) {
+		my @keys = split ",", delete $params{$key};
+		my @vals = split ",", delete $params{"${key}lang"};
+		my %k;
+		$params{"_$key"} = $keys[0];
+
+		@k{@keys} = @vals;
+		$params{$key} = \%k;
+	    }
+	}
+	$params{capability} = { map { $_ => 1 }
+				split ":", $params{capability}
+			      } if $params{capability};
+	# make them all sorted
+	$params{lang} =
+	  join "|", sort keys %{{ map { $_ => 1 }
+				split /\|/, $params{lang}
+			    }};
+
+	for ($params{charset}) {
+	    s/-/../g;
+	    s/ /,/g;
+	    s/([[:xdigit:]]+)/0x$1/g;
+	}
+
+	my $name = "XXX;
+
+	open my $f, ">:utf8", "$params{_fullname}-$file-$index.org";
+	for my $c (sort {$a<=>$b} eval $params{charset}) {
+	    my $i = charinfo($c);
+
+	    printf($f "| %s | %c | %s | %s |\n",
+		   sprintf("%04x",$c),
+		   $c,
+		   $uc->{$i->{category}} || $i->{category},
+		   $i->{name}
+		  );
+	}
+
+    }
+    else {
+	die "line:$.:unparsable:\n$_";
+    }
+
+}
+
+__END__
+
